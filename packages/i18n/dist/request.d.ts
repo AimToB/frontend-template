@@ -1,10 +1,5 @@
-declare function getRequestConfig({ locale, }: {
-    locale: string;
-}): Promise<{
-    locale: string;
-    messages: any;
-    timeZone: string;
-    now: Date;
-}>;
+import * as next_intl_server from 'next-intl/server';
 
-export { getRequestConfig as default };
+declare const _default: (params: next_intl_server.GetRequestConfigParams) => next_intl_server.RequestConfig | Promise<next_intl_server.RequestConfig>;
+
+export { _default as default };

@@ -6,8 +6,8 @@ import {
   useRouter
 } from "./chunk-UHJVHRIQ.js";
 import {
-  getRequestConfig
-} from "./chunk-QIWS2XWB.js";
+  request_default
+} from "./chunk-6P6RJNOF.js";
 import {
   defaultLocale,
   locales,
@@ -18,7 +18,7 @@ export {
   Link,
   defaultLocale,
   getPathname,
-  getRequestConfig,
+  request_default as getRequestConfig,
   locales,
   redirect,
   routing,

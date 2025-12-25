@@ -110,7 +110,7 @@ import Link from "next/link"; // ❌
 // src/proxy.ts must exist and export default
 
 // Check 3: Config points to request.ts?
-// next.config.ts: createNextIntlPlugin("./src/core/i18n/request.ts")
+// next.config.ts: createNextIntlPlugin("./packages/i18n/src/request.ts")
 ```
 
 ### Issue: 404 on valid routes

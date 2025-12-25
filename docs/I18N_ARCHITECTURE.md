@@ -52,7 +52,7 @@ This document explains the high-level architecture of the i18n system.
 ```
 next.config.ts
     │
-    ├─> createNextIntlPlugin("./src/core/i18n/request.ts")
+        ├─> createNextIntlPlugin("./packages/i18n/src/request.ts")
     │       │
     │       └─> Registers request handler
     │
