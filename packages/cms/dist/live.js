@@ -1,8 +1,9 @@
+"use server";
 import {
   SanityLive,
   sanityFetch
-} from "./chunk-53V3YRAW.js";
-import "./chunk-JDD6AR7K.js";
+} from "./chunk-3EI65NOB.js";
+import "./chunk-KMCAPWCS.js";
 export {
   SanityLive,
   sanityFetch

@@ -8,4 +8,3 @@ import 'next-intl/navigation';
 import 'url';
 import 'use-intl';
 import 'react';
-import 'next-intl/server';

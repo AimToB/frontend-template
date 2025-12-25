@@ -16,7 +16,7 @@ import {
   projectId,
   schema,
   structure,
-} from "./src/core/cms";
+} from "@cms";
 
 export default defineConfig({
   basePath: "/studio",

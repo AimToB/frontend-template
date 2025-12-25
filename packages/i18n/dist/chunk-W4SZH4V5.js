@@ -1,4 +1,4 @@
-// ../../src/core/i18n/routing.ts
+// src/routing.ts
 import { defineRouting } from "next-intl/routing";
 var locales = ["en", "de"];
 var defaultLocale = "en";

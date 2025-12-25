@@ -1,6 +1,6 @@
 import "./chunk-YZFATT7X.js";
 
-// ../../src/core/i18n/messages/en.json
+// src/messages/en.json
 var Home = {
   title: "Frontend template ready",
   desc: "Clone me and ship faster."

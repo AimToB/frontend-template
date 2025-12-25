@@ -2,9 +2,12 @@ import {
   apiVersion,
   dataset,
   projectId
-} from "./chunk-JDD6AR7K.js";
+} from "./chunk-KMCAPWCS.js";
 
-// ../../src/core/cms/client.ts
+// src/live.ts
+import { defineLive } from "next-sanity/live";
+
+// src/client.ts
 import { createClient } from "next-sanity";
 var client = createClient({
   projectId,
@@ -13,8 +16,7 @@ var client = createClient({
   useCdn: false
 });
 
-// ../../src/core/cms/live.ts
-import { defineLive } from "next-sanity/live";
+// src/live.ts
 var { sanityFetch, SanityLive } = defineLive({
   client
 });

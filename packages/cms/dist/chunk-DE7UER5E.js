@@ -2,9 +2,9 @@ import {
   apiVersion,
   dataset,
   projectId
-} from "./chunk-JDD6AR7K.js";
+} from "./chunk-KMCAPWCS.js";
 
-// ../../src/core/cms/publicClient.ts
+// src/publicClient.ts
 import { createClient } from "next-sanity";
 var client = createClient({
   projectId,

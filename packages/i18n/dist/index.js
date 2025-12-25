@@ -4,21 +4,21 @@ import {
   redirect,
   usePathname,
   useRouter
-} from "./chunk-OQQFVOZ5.js";
+} from "./chunk-UHJVHRIQ.js";
 import {
-  request_default
-} from "./chunk-P3ZD4QIT.js";
+  getRequestConfig
+} from "./chunk-QIWS2XWB.js";
 import {
   defaultLocale,
   locales,
   routing
-} from "./chunk-ZDYVLAXH.js";
+} from "./chunk-W4SZH4V5.js";
 import "./chunk-YZFATT7X.js";
 export {
   Link,
   defaultLocale,
   getPathname,
-  request_default as getRequestConfig,
+  getRequestConfig,
   locales,
   redirect,
   routing,

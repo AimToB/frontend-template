@@ -1,9 +1,9 @@
 import {
   dataset,
   projectId
-} from "./chunk-JDD6AR7K.js";
+} from "./chunk-KMCAPWCS.js";
 
-// ../../src/core/cms/image.ts
+// src/image.ts
 import createImageUrlBuilder from "@sanity/image-url";
 var builder = createImageUrlBuilder({ projectId, dataset });
 var urlFor = (source) => {

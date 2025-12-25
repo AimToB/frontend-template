@@ -1,8 +1,7 @@
 import {
-  request_default
-} from "./chunk-P3ZD4QIT.js";
-import "./chunk-ZDYVLAXH.js";
+  getRequestConfig
+} from "./chunk-QIWS2XWB.js";
 import "./chunk-YZFATT7X.js";
 export {
-  request_default as default
+  getRequestConfig as default
 };

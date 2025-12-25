@@ -1,4 +1,4 @@
-// ../../src/core/cms/env.ts
+// src/env.ts
 var apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2025-12-25";
 var dataset = assertValue(
   process.env.NEXT_PUBLIC_SANITY_DATASET,

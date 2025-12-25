@@ -1,7 +1,7 @@
 import {
   client
-} from "./chunk-3MOKCZ64.js";
-import "./chunk-JDD6AR7K.js";
+} from "./chunk-DE7UER5E.js";
+import "./chunk-KMCAPWCS.js";
 export {
   client
 };
