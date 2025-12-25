@@ -1,0 +1,11 @@
+export { defaultLocale, locales, routing } from './routing.js';
+export { Link, getPathname, redirect, usePathname, useRouter } from './navigation.js';
+export { default as getRequestConfig } from './request.js';
+import 'next-intl/routing';
+import 'next/dist/shared/lib/app-router-context.shared-runtime';
+import 'next/navigation';
+import 'next-intl/navigation';
+import 'url';
+import 'use-intl';
+import 'react';
+import 'next-intl/server';

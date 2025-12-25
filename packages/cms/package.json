@@ -1,0 +1,31 @@
+{
+  "name": "@frontend-template/cms",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./live": "./dist/live.js",
+    "./publicClient": "./dist/publicClient.js",
+    "./image": "./dist/image.js",
+    "./env": "./dist/env.js",
+    "./schemas": "./dist/schemas.js",
+    "./structure": "./dist/structure.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/live.ts src/publicClient.ts src/image.ts src/env.ts src/schemas.ts src/structure.ts --tsconfig ../../tsconfig.packages.json --dts --format esm --clean"
+  },
+  "peerDependencies": {
+    "@sanity/image-url": "^2.0.2",
+    "next": ">=16",
+    "next-sanity": "^12.0.5",
+    "react": ">=18",
+    "sanity": "^4.22.0"
+  }
+}

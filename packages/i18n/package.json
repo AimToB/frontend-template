@@ -1,0 +1,26 @@
+{
+  "name": "@frontend-template/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./routing": "./dist/routing.js",
+    "./navigation": "./dist/navigation.js",
+    "./request": "./dist/request.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/routing.ts src/navigation.ts src/request.ts --tsconfig ../../tsconfig.packages.json --dts --format esm --clean"
+  },
+  "peerDependencies": {
+    "next": ">=16",
+    "next-intl": "^4.6.1",
+    "react": ">=18"
+  }
+}

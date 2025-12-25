@@ -19,7 +19,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@cms": ["./packages/cms/src/index.ts"],
+      "@cms/*": ["./packages/cms/src/*"],
+      "@i18n": ["./packages/i18n/src/index.ts"],
+      "@i18n/*": ["./packages/i18n/src/*"],
+      "@frontend-template/cms": ["./packages/cms/src/index.ts"],
+      "@frontend-template/cms/*": ["./packages/cms/src/*"],
+      "@frontend-template/i18n": ["./packages/i18n/src/index.ts"],
+      "@frontend-template/i18n/*": ["./packages/i18n/src/*"]
     }
   },
   "include": [
