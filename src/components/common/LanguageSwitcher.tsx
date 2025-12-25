@@ -19,6 +19,8 @@ const locales = [
 export default function LanguageSwitcher() {
   const activeLocale = useLocale();
   const pathname = usePathname();
+  // Normalize to a locale-agnostic pathname to avoid duplicating segments
+  const basePath = pathname.replace(/^\/(en|de)(?=\/|$)/, "") || "/";
 
   return (
     <DropdownMenu>
@@ -31,7 +33,7 @@ export default function LanguageSwitcher() {
         {locales.map((locale) => (
           <DropdownMenuItem key={locale.code} asChild>
             <Link
-              href={pathname}
+              href={basePath}
               locale={locale.code}
               className={
                 activeLocale === locale.code ? "font-bold" : "font-normal"

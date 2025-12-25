@@ -10,13 +10,7 @@ import { structureTool } from "sanity/structure";
 import { documentInternationalization } from "@sanity/document-internationalization";
 
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
-import {
-  apiVersion,
-  dataset,
-  projectId,
-  schema,
-  structure,
-} from "@cms";
+import { apiVersion, dataset, projectId, schema, structure } from "@cms";
 
 export default defineConfig({
   basePath: "/studio",

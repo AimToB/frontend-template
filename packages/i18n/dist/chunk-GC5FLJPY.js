@@ -16,8 +16,9 @@ var globImport_messages_json = __glob({
 });
 
 // src/request.ts
-var request_default = getRequestConfig(async ({ locale }) => {
-  const selected = hasLocale(routing.locales, locale) ? locale : routing.defaultLocale;
+var request_default = getRequestConfig(async ({ requestLocale }) => {
+  const requested = await requestLocale;
+  const selected = hasLocale(routing.locales, requested) ? requested : routing.defaultLocale;
   return {
     locale: selected,
     messages: (await globImport_messages_json(`./messages/${selected}.json`)).default

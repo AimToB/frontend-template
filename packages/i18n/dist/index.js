@@ -7,7 +7,7 @@ import {
 } from "./chunk-UHJVHRIQ.js";
 import {
   request_default
-} from "./chunk-6P6RJNOF.js";
+} from "./chunk-GC5FLJPY.js";
 import {
   defaultLocale,
   locales,
